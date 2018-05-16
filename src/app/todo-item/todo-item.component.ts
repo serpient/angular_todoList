@@ -3,7 +3,7 @@ import { Output, Component, OnInit, Input, EventEmitter } from '@angular/core';
 @Component({
   selector: 'app-todo-item',
   templateUrl: './todo-item.component.html',
-  styleUrls: ['./todo-item.component.css']
+  styleUrls: ['./todo-item.component.css', '../app.component.css']
 })
 export class TodoItemComponent implements OnInit {
   @Input() item: TodoItem;

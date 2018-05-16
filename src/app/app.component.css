@@ -1,11 +1,42 @@
 h1 {
-  color: red;
+  color: lightgray;
 }
 .app-title {
-  font-size: 52px;
+  font-size: 35px;
   line-height: 52px;
+  margin-top: 80px;
   margin-bottom: 30px;
   font-weight: bold;
   text-align: center;
   letter-spacing: -0.8px;
+  font-family: 'Lucida Grande', Verdana, sans-serif;
+}
+
+.btn-red:hover {
+  background: darkred;
+}
+
+.btn-red {
+  background: red;
+  float: right;
+}
+
+.btn:hover {
+  background: lightslategrey;
+}
+
+.btn, .btn-red {
+  color: #fff;
+  padding: 3px 10px;
+  margin: 0 0 0 3px;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 24px;
+  cursor: pointer;
+  vertical-align: bottom;
+}
+
+.btn {
+  background: lightseagreen;
 }

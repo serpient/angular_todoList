@@ -5,11 +5,14 @@
   line-height: 30px;
   display: flex;
   justify-content: space-between;
+  font-family: 'Lucida Grande', Verdana, sans-serif;
+  text-align: left;
 }
 ​
 .todo-checkbox {
   flex-shrink: 0;
   margin: auto 1ex auto 0;
+  vertical-align: middle;
 }
 ​
 .todo-title {
