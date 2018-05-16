@@ -1,0 +1,6 @@
+<input 
+  class="todo-input"
+  #inputElementRef 
+  (keyup.enter)="submitValue($event.target.value)" 
+  [value]="title">
+<button  class="btn" (click)="submitValue(inputElementRef.value)">Save</button>

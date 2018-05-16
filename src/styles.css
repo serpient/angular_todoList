@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+html, body, div, span,
+h1, p, ul, li {
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+​
+body {
+  background: #f1f1f1;
+  font-size: 16px;
+  line-height: 22px;
+  color: #404040;
+  font-family: 'Lucida Grande', Verdana, sans-serif;
+}
+​
+ol, ul {
+  list-style: none;
+}
